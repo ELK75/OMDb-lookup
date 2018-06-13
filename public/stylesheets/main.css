@@ -1,0 +1,75 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: black;
+}
+
+.landing {
+    background-image: url("https://images.unsplash.com/photo-1465066989788-372fcdde2f2c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2640dbc2e5d75ac77e6931d11a7a6061&auto=format&fit=crop&w=1050&q=80");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.header {
+    padding-top: 3%
+}
+
+.header h1 {
+    letter-spacing: 3px;
+}
+
+.header h1, .header h2, .movie-data h1 {
+    text-align: center;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.div-form-top {
+    width: 30%;
+    margin: 25px auto;
+}
+
+.dropdown {
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+}
+
+.movie-data img {
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+#movie-poster {
+    float: left;
+}
+
+.movie-data h4 {
+    color: white;
+    padding-top: 0;
+    padding-left: 30%;
+}
+
+.movie-data .movie-ratings h4:first-child {
+    padding-top: 8%;
+}
+
+.movie-data .ratings-logo {
+    margin: 0;
+    border: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 1px;
+    height: 1em;
+}
+
+#plot {
+    color: white;
+    padding-left: 30%;
+    padding-top: 2%
+}
