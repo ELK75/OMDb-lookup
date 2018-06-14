@@ -73,3 +73,7 @@ html, body {
     padding-left: 30%;
     padding-top: 2%
 }
+
+.movie-data img {
+    padding-right: 5%;
+}

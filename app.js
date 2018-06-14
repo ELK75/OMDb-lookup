@@ -11,4 +11,4 @@ app.set("view engine", "ejs");
 app.use("", indexRoutes);
 app.use(express.static(__dirname + "/public"));
 
-app.listen(process.env.PORT);
+app.listen(process.env.PORT || 8080);
